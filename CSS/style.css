@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*barra de navegación*/
+nav{
+    background-color: rgb(197, 185, 185);
+    margin: 0px 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.login{
+    background-color: blue;
+    border: 2px solid black;
+    padding: 5px 15px;
+    color: white;
+    box-shadow: 4px 4px black;
+}
+
+
+/*contenedor principal*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    /*border: 2px solid red;*/
+    gap: 20px;
+}
+
+.rightcolumn{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /*border: 2px solid blue;*/
+}
+
+.meaning{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid gray;
+    height: 150px;
+    padding-left: 20px;
+}
+
+.meaningleft{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.likes{
+    background-color: rgb(236, 236, 114);
+    padding: 5px 10px;
+    box-shadow: 4px 4px black;
+    margin-top: 15px;
+}
+
+/*Columna izquierda*/
+
+.dojonary{
+    border: 2px solid gray;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adddefinition{
+    background-color: rgb(84, 184, 84);
+    padding: 5px 0px;
+    margin-top: 8px;
+    box-shadow: 4px 4px black;
+    border: 2px solid black;
+
+}
